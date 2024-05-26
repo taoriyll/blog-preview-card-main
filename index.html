@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    * { 
+      -moz-box-sizing: border-box; 
+      -webkit-box-sizing: border-box; 
+      box-sizing: border-box; 
+    }
+
+    .attribution { font-size: 11px; text-align: center; flex-basis: 100%;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color: hsl(47, 88%, 63%);
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    main{
+      max-width: 384px;
+      height: 528px;
+      background-color: white;
+      border-radius: 20px;
+      overflow: hidden;
+      padding: 24px;
+    }
+
+    img{
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="./assets/images/illustration-article.svg" alt="illustration-article">
+
+    <div class="content">
+      <p class="learning">Learning</p>
+      <p class="publish">Published 21 Dec 2023</p>
+      <p class="foundations">HTML & CSS foundations</p>
+      <p class="text">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      <p class="author">Greg Hooper</p>
+    </div>
+  </main>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#https://www.frontendmentor.io/profile/taoriyll">taoriyll</a>.
+  </div>
+</body>
+</html>
