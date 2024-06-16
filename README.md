@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./card.jpg)
+![Preview](./design/card.JPG)
 
 ## My process
 
